@@ -114,11 +114,11 @@
 	},
 	"AutoloadClasses": {
 		"SkinLibertyVertical": "SkinLibertyVertical.php",
-		"LibertyTemplate": "LibertyTemplate.php",
-		"LibertyHooks": "LibertyHooks.php"
+		"LibertyVerticalTemplate": "LibertyVerticalTemplate.php",
+		"LibertyVerticalHooks": "LibertyVerticalHooks.php"
 	},
 	"Hooks": {
-		"GetPreferences": "LibertyHooks::onGetPreferences"
+		"GetPreferences": "LibertyVerticalHooks::onGetPreferences"
 	},
 	"manifest_version": 1
 }

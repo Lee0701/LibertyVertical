@@ -2,7 +2,7 @@
 class SkinLibertyVertical extends SkinTemplate {
 	public $skinname = 'liberty-vertical';
 	public $stylename = 'Liberty-vertical';
-	public $template = 'LibertyTemplate';
+	public $template = 'LibertyVerticalTemplate';
 
 	/**
 	 * Page initialize.

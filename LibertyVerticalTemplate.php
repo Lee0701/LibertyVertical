@@ -2,7 +2,7 @@
 
 use MediaWiki\MediaWikiServices;
 
-class LibertyTemplate extends BaseTemplate {
+class LibertyVerticalTemplate extends BaseTemplate {
 	/**
 	 * execute() Method
 	 */
@@ -34,43 +34,46 @@ class LibertyTemplate extends BaseTemplate {
 			</div>
 			</aside>
 			<div class="container-fluid liberty-content">
-				<div class="liberty-content-header">
-					<?php if ( $this->data['sitenotice'] &&
-							   !$request->getCookie( 'disable-notice' ) ) { ?>
-						<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert">
-							<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-							<?php $this->html( 'sitenotice' ); ?>
-						</div>
-					<?php } ?>
-					<?php if ( isset( $wgLibertyVerticalAdSetting['header'] ) && $wgLibertyVerticalAdSetting['header'] ) {
-						$this->buildAd( 'header' );
-					}
-					$this->contentsToolbox(); ?>
+				<div class="liberty-content-header vertical">
 					<div class="title">
 						<h1>
 							<?php $this->html( 'title' ); ?>
 						</h1>
 					</div>
-					<div class="contentSub"<?php $this->html( 'userlangattributes' ); ?>>
-						<?php $this->html( 'subtitle' ); ?>
-					</div>
 				</div>
 				<div class="liberty-content-main" id="content">
-					<?php if ( $this->data['newtalk'] ) { ?>
-					<div class="usermessage"><?php $this->html( 'newtalk' ) ?></div>
-					<?php }
-					if ( $this->data['catlinks'] ) {
-						$this->html( 'catlinks' );
-					}
-					?>
-					<article class="mw-body-content">
-						<?php $this->html( 'bodycontent' ); ?>
-					</article>
+					<div class="liberty-subnav">
+						<div class="liberty-subnav-content">
+							<?php if ( $this->data['sitenotice'] &&
+									!$request->getCookie( 'disable-notice' ) ) { ?>
+								<div class="alert alert-dismissible fade in alert-info liberty-notice" role="alert">
+									<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+										<span aria-hidden="true">&times;</span>
+									</button>
+									<?php $this->html( 'sitenotice' ); ?>
+								</div>
+							<?php } ?>
+							<div class="contentSub"<?php $this->html( 'userlangattributes' ); ?>>
+								<?php $this->html( 'subtitle' ); ?>
+							</div>
+						</div>
+						<?php $this->contentsToolbox(); ?>
+					</div>
+					<div class="liberty-body-content-wrapper">
+						<article class="mw-body-content">
+							<?php if ( $this->data['newtalk'] ) { ?>
+							<div class="usermessage"><?php $this->html( 'newtalk' ) ?></div>
+							<?php } ?>
+							<?php
+							if ( $this->data['catlinks'] ) {
+								$this->html( 'catlinks' );
+							}
+							?>
+							<?php $this->html( 'bodycontent' ); ?>
+						</article>
+					</div>
 				</div>
-				<footer>
-				<div class="liberty-footer">
+				<footer class="liberty-footer">
 					<?php
 					if ( $this->data['dataAfterContent'] ) {
 						$this->html( 'dataAfterContent' );
@@ -78,7 +81,6 @@ class LibertyTemplate extends BaseTemplate {
 					?>
 					<div class="bottom-ads"></div>
 					<?php $this->footer(); ?>
-				</div>
 				</footer>
 			</div>
 		</div>

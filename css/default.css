@@ -20,6 +20,12 @@ body {
 	font-size: 0.95rem;
 }
 
+body {
+    ruby-align: center;
+    ruby-align: distribute-space;
+    text-underline-position: right under;
+}
+
 body,
 h1,
 h2,
@@ -40,6 +46,10 @@ h4,
 h5,
 h6 {
 	margin: 0;
+}
+
+.vertical {
+	writing-mode: vertical-rl;
 }
 
 input[type=password] {
@@ -482,11 +492,14 @@ strike {
 	margin-inline-end: 16rem;
 	padding: 0;
 	padding-block-end: 1rem;
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header {
+	border-top-right-radius: 0.35rem;
 	border: 1px solid #e1e8ed;
-	border-radius: 0.35rem 0.35rem 0 0;
 	background-color: #f5f8fa;
 }
 
@@ -501,31 +514,44 @@ strike {
 	line-height: 1.8rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools {
-	float: right;
-	padding-inline-end: 1rem;
-	padding-block-start: 1rem;
+.Liberty .content-wrapper .liberty-content .liberty-subnav {
+	border-top-left-radius: 0.35rem;
+	border: 1px solid #e1e8ed;
+	background-color: #f5f8fa;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn {
+.Liberty .content-wrapper .liberty-content .liberty-subnav .liberty-subnav-content {
+	padding: 1rem;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools {
+	float: right;
+	padding: 1rem;
+}
+
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .tools-btn {
 	font-size: 0.9rem;
 	padding: 0.4rem 0.8rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-toggle {
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .dropdown-toggle {
 	padding: 0.4rem 0.3rem;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:hover,
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:focus,
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn:active {
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .tools-btn:hover,
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .tools-btn:focus,
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .tools-btn:active {
 	color: #fff;
 	transition: 0.3s;
 	outline: 0;
 	border-color: #e1e8ed;
 }
 
-.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .dropdown-menu {
+.Liberty .content-wrapper .liberty-content .liberty-subnav .content-tools .dropdown-menu {
 	top: 92%;
 }
 
@@ -550,17 +576,23 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main {
+	flex: 1;
 	border-inline-start: 1px solid #e1e8ed;
 	border-inline-end: 1px solid #e1e8ed;
 	background-color: #fff;
-	padding: 1rem;
 	overflow: hidden;
 	line-height: 1.6rem;
 }
+
+.Liberty .content-wrapper .liberty-content .liberty-content-main .liberty-body-content-wrapper {
+	padding: 1rem;
+}
+
 /* Content End */
 
 /* Footer */
 .Liberty .content-wrapper .liberty-footer {
+	width: 100%;
 	border: 1px solid #e1e8ed;
 	border-radius: 0 0 0.35rem 0.35rem;
 	background-color: #f5f8fa;
