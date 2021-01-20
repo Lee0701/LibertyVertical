@@ -512,13 +512,7 @@ class LibertyVerticalTemplate extends BaseTemplate {
 							],
 							[ 'action' => 'history' ]
 						);
-					}
-					if ( $action == 'view' ) { ?>
-					<button type="button" class="btn btn-secondary tools-btn tools-share">
-						<i class="far fa-share-square"></i>
-						<?php echo $skin->msg( 'liberty-share' )->plain() ?>
-					</button>
-					<?php } ?>
+					} ?>
 					<button type="button" class="btn btn-secondary tools-btn dropdown-toggle"
 							data-toggle="dropdown" aria-expanded="false">
 						<span class="caret"></span>

@@ -84,7 +84,6 @@
 		},
 		"skins.liberty-vertical.layoutjs": {
 			"scripts": [
-				"js/index-button.js",
 				"js/delay-scrolling.js",
 				"js/disable-notice.js",
 				"js/share-button.js",
