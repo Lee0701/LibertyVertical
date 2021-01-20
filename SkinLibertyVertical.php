@@ -184,9 +184,15 @@ class SkinLibertyVertical extends SkinTemplate {
 		);
 
 		$out->addHeadItem(
+			'webfonts-preconnect',
+			// @codingStandardsIgnoreLine
+			'<link rel="preconnect" href="https://fonts.gstatic.com">'
+		);
+
+		$out->addHeadItem(
 			'webfonts',
 			// @codingStandardsIgnoreLine
-			'<link href="https://fonts.googleapis.com/css?family=Dokdo|Gaegu|Nanum+Gothic|Nanum+Gothic+Coding|Nanum+Myeongjo|Noto+Serif+KR|Noto+Sans+KR&display=swap&subset=korean" rel="stylesheet">'
+			'<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Sans+KR&family=Noto+Sans+SC&family=Noto+Serif+JP&family=Noto+Serif+KR&family=Noto+Serif+SC&display=swap" rel="stylesheet">'
 		);
 
 		$out->addHeadItem(
