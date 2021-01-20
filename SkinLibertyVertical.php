@@ -69,24 +69,24 @@ class SkinLibertyVertical extends SkinTemplate {
 		}
 
 		$modules = [
-			'skins.liberty.bootstrap',
-			'skins.liberty.layoutjs'
+			'skins.liberty-vertical.bootstrap',
+			'skins.liberty-vertical.layoutjs'
 		];
 
 		// Only load ad-related JS if ads are enabled in site configuration
 		if ( isset( $wgLibertyVerticalAdSetting['client'] ) && $wgLibertyVerticalAdSetting['client'] ) {
-			$modules[] = 'skins.liberty.ads';
+			$modules[] = 'skins.liberty-vertical.ads';
 		}
 
 		// Only load LiveRC JS is we have enabled that feature in site config
 		if ( $wgLibertyVerticalEnableLiveRC ) {
-			$modules[] = 'skins.liberty.liverc';
+			$modules[] = 'skins.liberty-vertical.liverc';
 		}
 
 		// Only load modal login JS for anons, no point in loading it for logged-in
 		// users since the modal HTML isn't even rendered for them.
 		if ( $skin->getUser()->isAnon() ) {
-			$modules[] = 'skins.liberty.loginjs';
+			$modules[] = 'skins.liberty-vertical.loginjs';
 		}
 
 		$out->addModules( $modules );
@@ -204,7 +204,7 @@ class SkinLibertyVertical extends SkinTemplate {
 			);
 		}
 
-		$out->addModuleStyles( [ 'skins.liberty.styles' ] );
+		$out->addModuleStyles( [ 'skins.liberty-vertical.styles' ] );
 	}
 
 	/**

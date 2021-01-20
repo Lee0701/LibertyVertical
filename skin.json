@@ -35,13 +35,16 @@
 		"LibertyVerticalMaxRecent": 10
 	},
 	"ResourceModules": {
-		"skins.liberty.styles": {
+		"skins.liberty-vertical.styles": {
 			"class": "ResourceLoaderSkinModule",
 			"styles": {
 				"bootstrap/css/bootstrap.min.css": {
 					"media": "all"
 				},
 				"css/default.css": {
+					"media": "all"
+				},
+				"css/vertical.css": {
 					"media": "all"
 				},
 				"css/default_mobile.css": {
@@ -70,32 +73,33 @@
 				}
 			}
 		},
-		"skins.liberty.ads": {
+		"skins.liberty-vertical.ads": {
 			"scripts": "js/ads.js"
 		},
-		"skins.liberty.bootstrap": {
+		"skins.liberty-vertical.bootstrap": {
 			"scripts": [
 				"js/lib/jquery.ba-throttle-debounce.js",
 				"js/lib/bootstrap.min.js"
 			]
 		},
-		"skins.liberty.layoutjs": {
+		"skins.liberty-vertical.layoutjs": {
 			"scripts": [
 				"js/index-button.js",
 				"js/delay-scrolling.js",
 				"js/disable-notice.js",
 				"js/share-button.js",
 				"js/layout.js",
-				"js/table.js"
+				"js/table.js",
+				"js/vertical.js"
 			],
 			"dependencies": "mediawiki.cookie"
 		},
-		"skins.liberty.liverc": {
+		"skins.liberty-vertical.liverc": {
 			"scripts": "js/live-recent.js",
 			"messages": [ "liberty-feed-new" ],
 			"dependencies": "mediawiki.util"
 		},
-		"skins.liberty.loginjs": {
+		"skins.liberty-vertical.loginjs": {
 			"scripts": "js/login-request.js",
 			"dependencies": "mediawiki.util"
 		}

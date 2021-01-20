@@ -1,0 +1,40 @@
+
+h1, h2, h3, h4, h5, h6, b, .live-recent-content, .mw-parser-output {
+    font-family: 'Noto Serif KR', 'Noto Serif JP', 'Noto Serif SC', 'Noto Serif CJK KR', 'Noto Serif CJK JP', serif;
+}
+
+.mw-body-content .mw-parser-output {
+    writing-mode: vertical-rl;
+    width: 100%;
+    columns: 18em;
+    column-gap: 2em;
+    column-rule: 1px solid #eee;
+    column-fill: auto;
+
+    font-size: 1.1rem;
+    line-height: 175%;
+    text-align: justify;
+    text-justify: inter-character;
+    text-orientation: upright;
+    text-indent: 1em;
+
+    word-spacing: -0.25em;
+    letter-spacing: -0.025em;
+}
+
+h1, h2, h3, h4, h5, h6, b {
+    letter-spacing: initial;
+}
+
+.toctogglespan::before, .toctogglespan::after {
+    display: none;
+}
+
+.mw-editsection-bracket {
+    display: none;
+}
+
+.mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-editsection {
+    margin: 0;
+    margin-inline-start: 1em;
+}
