@@ -37,6 +37,10 @@
 		padding-block-end: 0.5rem;
 	}
 
+	.Liberty .content-wrapper .liberty-content .liberty-content-header {
+		padding: 0.5rem;
+	}
+	
 	.Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice {
 		margin: 0.5rem;
 	}
@@ -45,10 +49,6 @@
 		float: none;
 		text-align: right;
 		border-block-end: 1px solid #e1e8ed;
-		padding: 0.5rem;
-	}
-
-	.Liberty .content-wrapper .liberty-content .liberty-content-header .title {
 		padding: 0.5rem;
 	}
 
