@@ -28,37 +28,37 @@
 
 html .editButtons input,
 html .editButtons input:first-child {
-	margin-right: 0.2rem;
-	margin-left: 0;
+	margin-inline-end: 0.2rem;
+	margin-inline-start: 0;
 }
 
 .editButtons .cancelLink {
 	margin: 0;
 }
 .editButtons * {
-	margin-top: 0.2rem;
+	margin-block-start: 0.2rem;
 }
 /* Button End */
 
 html .wikiEditor-ui-tabs {
-	border-left: 1px solid #e1e8ed;
-	border-top: 1px solid #e1e8ed;
+	border-inline-start: 1px solid #e1e8ed;
+	border-block-start: 1px solid #e1e8ed;
 }
 
 html .wikiEditor-ui-tabs div {
-	border-right: 1px solid #e1e8ed;
-	border-bottom: 1px solid #e1e8ed;
+	border-inline-end: 1px solid #e1e8ed;
+	border-block-end: 1px solid #e1e8ed;
 	background-color: #fff;
 }
 
 html .wikiEditor-ui-tabs div.current {
-	border-bottom: 1px solid #f5f8fa;
+	border-block-end: 1px solid #f5f8fa;
 	background-color: #f5f8fa;
 }
 
 html .wikiEditor-ui .wikiEditor-ui-view {
 	border: 1px solid #e1e8ed;
-	border-bottom: 0;
+	border-block-end: 0;
 }
 
 html .wikiEditor-ui-toolbar {
@@ -67,7 +67,7 @@ html .wikiEditor-ui-toolbar {
 }
 
 html .wikiEditor-ui .wikiEditor-ui-top {
-	border-bottom: 1px solid #e1e8ed;
+	border-block-end: 1px solid #e1e8ed;
 }
 
 .editOptions {
@@ -97,11 +97,11 @@ html .editOptions input#wpSummary:focus {
 }
 
 .editCheckboxes label {
-	margin-right: 0.5rem;
+	margin-inline-end: 0.5rem;
 }
 
 .mw-charinsert-buttons {
-	margin-top: 1rem;
+	margin-block-start: 1rem;
 	border: 1px solid #e1e8ed;
 	padding: 0.8rem;
 }
@@ -118,7 +118,7 @@ html .editOptions input#wpSummary:focus {
 
 .mw-charinsert-buttons input {
 	padding: 0.2rem 0.5rem;
-	margin-top: 0.3rem;
+	margin-block-start: 0.3rem;
 }
 
 .mw-charinsert-buttons input:hover,
@@ -127,7 +127,7 @@ html .editOptions input#wpSummary:focus {
 }
 
 .templatesUsed {
-	margin-top: 0.8rem;
+	margin-block-start: 0.8rem;
 }
 
 html td.diff-context {

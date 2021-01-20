@@ -8,5 +8,5 @@
 	display: flex !important;
 }
 .read-more-container .ext-related-articles-card-detail {
-	margin-right: 1rem !important;
+	margin-inline-end: 1rem !important;
 }

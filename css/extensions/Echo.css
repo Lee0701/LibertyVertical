@@ -5,7 +5,7 @@
 @media screen and (max-width: 539px) {
   .mw-echo-ui-notificationBadgeButtonPopupWidget-popup {
     left: 10px !important;
-    padding-right: 10px;
+    padding-inline-end: 10px;
   }
   .mw-echo-ui-notificationBadgeButtonPopupWidget-popup>.oo-ui-popupWidget-popup {
     width: auto !important;

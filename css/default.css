@@ -26,19 +26,20 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-	font-family: 'Apple SD Gothic Neo', 'Spoqa Han Sans', 'SpoqaHanSans', 'Noto Sans KR', 'Noto Sans', 'Noto Sans CJK KR', 'NanumBarunGothic', 'Nanum Gothic', 'KoPub Dotum', 'Malgun Gothic', '맑은 고딕', sans-serif;
-	margin: 0;
+h6,
+b {
+	font-family: 'Noto Sans KR', 'Noto Sans JP', 'Noto Sans CJK KR', 'Noto Sans CJK JP', sans-serif;
+
 }
 
+body,
 h1,
 h2,
 h3,
 h4,
 h5,
-h6,
-b {
-	font-family: 'Apple SD Gothic Neo', 'Spoqa Han Sans', 'SpoqaHanSans', 'Noto Sans KR', 'Noto Sans', 'Noto Sans CJK KR', 'NanumBarunGothic', 'Nanum Gothic', 'KoPub Dotum', 'Malgun Gothic', '맑은 고딕', sans-serif;
+h6 {
+	margin: 0;
 }
 
 input[type=password] {
@@ -77,15 +78,15 @@ p {
 }
 
 p {
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 }
 
 ol,
 .mw-content-ltr ol,
 .mw-content-rtl .mw-content-ltr ol {
 	margin: 0;
-	margin-left: 2.2rem;
-	margin-right: 1rem;
+	margin-inline-start: 2.2rem;
+	margin-inline-end: 1rem;
 	list-style-image: none;
 }
 
@@ -146,7 +147,7 @@ textarea {
 }
 
 hr {
-	border-top: 1px solid #e1e8ed;
+	border-block-start: 1px solid #e1e8ed;
 }
 
 
@@ -210,7 +211,7 @@ strike {
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .fa,
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .fas,
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .far {
-	margin-right: 0.5rem;
+	margin-inline-end: 0.5rem;
 	font-size: 1rem;
 }
 
@@ -227,14 +228,14 @@ strike {
 }
 
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-menu {
-	margin-top: 0;
+	margin-block-start: 0;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-nav .nav-item .dropdown-toggle::after {
-	margin-right: 0;
-	margin-left: 0.35rem;
+	margin-inline-end: 0;
+	margin-inline-start: 0.35rem;
 }
 
 .Liberty .nav-wrapper .navbar .form-inline {
@@ -274,7 +275,7 @@ strike {
 
 .Liberty .nav-wrapper .navbar .navbar-login {
 	float: right;
-	padding-left: 0.8rem;
+	padding-inline-start: 0.8rem;
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .fa,
@@ -305,7 +306,7 @@ strike {
 }
 
 .Liberty .nav-wrapper .navbar .navbar-login .logout-btn {
-	margin-left: 0.8rem;
+	margin-inline-start: 0.8rem;
 	display: inline-block;
 }
 
@@ -372,8 +373,8 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-header .nav .nav-item + .nav-item {
-	margin-left: 0;
-	border-left: 0;
+	margin-inline-start: 0;
+	border-inline-start: 0;
 	border-top-left-radius: 0;
 	border-top-right-radius: 0.35rem;
 }
@@ -383,8 +384,8 @@ strike {
 	border-radius: 0;
 	border-top-left-radius: 0.35rem;
 	text-align: center;
-	padding-top: 0.6rem;
-	padding-bottom: 0.6rem;
+	padding-block-start: 0.6rem;
+	padding-block-end: 0.6rem;
 	color: #6e7478;
 	position: relative;
 }
@@ -417,7 +418,7 @@ strike {
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-content {
 	background-color: #fff;
 	border: 1px solid #e1e8ed;
-	border-top: 0;
+	border-block-start: 0;
 	z-index : 1;
 }
 
@@ -426,12 +427,12 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-content .live-recent-list li {
-	border-bottom: 1px solid #e1e8ed;
+	border-block-end: 1px solid #e1e8ed;
 	padding: 0.2rem 0.6rem;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-content .live-recent-list li:last-child {
-	border-bottom: none;
+	border-block-end: none;
 }
 
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-content .live-recent-list .recent-item {
@@ -447,7 +448,7 @@ strike {
 .Liberty .content-wrapper .liberty-sidebar .live-recent-wrapper .live-recent .live-recent-footer {
 	background-color: #f5f8fa;
 	border: 1px solid #e1e8ed;
-	border-top: 0;
+	border-block-start: 0;
 	border-bottom-left-radius: 0.35rem;
 	border-bottom-right-radius: 0.35rem;
 	text-align: right;
@@ -473,14 +474,14 @@ strike {
 
 /* Content */
 .Liberty .content-wrapper {
-	margin-top: 3.33rem;
+	margin-block-start: 3.33rem;
 	z-index: -1;
 }
 
 .Liberty .content-wrapper .liberty-content {
-	margin-right: 16rem;
+	margin-inline-end: 16rem;
 	padding: 0;
-	padding-bottom: 1rem;
+	padding-block-end: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header {
@@ -502,8 +503,8 @@ strike {
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools {
 	float: right;
-	padding-right: 1rem;
-	padding-top: 1rem;
+	padding-inline-end: 1rem;
+	padding-block-start: 1rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools .tools-btn {
@@ -533,9 +534,9 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .contentSub {
-	margin-top: -0.5rem;
+	margin-block-start: -0.5rem;
 	padding: 1rem;
-	padding-top: 0;
+	padding-block-start: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .title>h1 {
@@ -545,12 +546,12 @@ strike {
 
 .Liberty .content-wrapper .liberty-content .liberty-content-header .header-ads {
 	margin: 1rem;
-	margin-bottom: 0;
+	margin-block-end: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main {
-	border-left: 1px solid #e1e8ed;
-	border-right: 1px solid #e1e8ed;
+	border-inline-start: 1px solid #e1e8ed;
+	border-inline-end: 1px solid #e1e8ed;
 	background-color: #fff;
 	padding: 1rem;
 	overflow: hidden;
@@ -572,7 +573,7 @@ strike {
 }
 
 .Liberty .content-wrapper .liberty-footer ul {
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 	display: inline-block;
 	width: 100%;
 }
@@ -580,15 +581,15 @@ strike {
 .Liberty .content-wrapper .liberty-footer .footer-places li {
 	text-align: left;
 	float: left;
-	margin-right: 0.8rem;
+	margin-inline-end: 0.8rem;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-icons {
-	margin-bottom: 0;
+	margin-block-end: 0;
 }
 
 .Liberty .content-wrapper .liberty-footer .footer-icons li {
-	margin-right: 0.8rem;
+	margin-inline-end: 0.8rem;
 	float: left;
 }
 /* Footer End */
@@ -604,12 +605,12 @@ strike {
 
 .Liberty .login-modal .modal-title {
 	text-align: center;
-	padding-left: 1.5rem;
+	padding-inline-start: 1.5rem;
 }
 
 .Liberty .login-modal .alert {
 	padding: 0.8rem;
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 }
 
 .Liberty .login-modal .alert-hidden {
@@ -617,7 +618,7 @@ strike {
 }
 
 .Liberty .login-modal .form-control {
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 }
 
 .Liberty .login-modal .modal-checkbox:not(#noop) {
@@ -627,7 +628,7 @@ strike {
 
 .Liberty .login-modal .modal-checkbox {
 	vertical-align: middle;
-	margin-bottom: 0.7rem;
+	margin-block-end: 0.7rem;
 }
 
 .Liberty .login-modal .modal-checkbox:not(#noop) input[type='checkbox'] {
@@ -645,7 +646,7 @@ strike {
 }
 
 .Liberty .login-modal .modal-checkbox:not( #noop ) input[type='checkbox']+label {
-	padding-left: 0.4em;
+	padding-inline-start: 0.4em;
 	display: table-cell;
 }
 
@@ -667,7 +668,7 @@ strike {
 	line-height: 2em;
 	border: 1px solid #777;
 	top: 50%;
-	margin-top: -1em;
+	margin-block-start: -1em;
 }
 
 .Liberty .login-modal .modal-checkbox:not(#noop) input[type='checkbox']+label:hover::before {
@@ -680,7 +681,7 @@ strike {
 }
 
 .Liberty .login-modal .btn {
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 }
 
 .Liberty .login-modal .modal-footer {
@@ -769,8 +770,8 @@ ins.adsbygoogle {
 	list-style: none;
 	top: 0.8rem;
 	font-size: 0.9rem;
-	margin-right: 0.6rem;
-	margin-left: 0.8rem;
+	margin-inline-end: 0.6rem;
+	margin-inline-start: 0.8rem;
 }
 /* Echo End */
 

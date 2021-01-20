@@ -7,8 +7,8 @@
 	.Liberty .nav-wrapper .navbar .form-inline {
 		float: left;
 		padding: 0;
-		padding-top: 0.25rem;
-		padding-bottom: 0.5rem;
+		padding-block-start: 0.25rem;
+		padding-block-end: 0.5rem;
 	}
 
 	.Liberty .nav-wrapper .navbar .form-inline .input-group {
@@ -25,7 +25,7 @@
 	}
 
 	.Liberty .content-wrapper {
-		margin-top: 5.89rem;
+		margin-block-start: 5.89rem;
 	}
 
 	.Liberty .content-wrapper .liberty-sidebar {
@@ -33,8 +33,8 @@
 	}
 
 	.Liberty .content-wrapper .liberty-content {
-		margin-right: auto;
-		padding-bottom: 0.5rem;
+		margin-inline-end: auto;
+		padding-block-end: 0.5rem;
 	}
 
 	.Liberty .content-wrapper .liberty-content .liberty-content-header .liberty-notice {
@@ -44,7 +44,7 @@
 	.Liberty .content-wrapper .liberty-content .liberty-content-header .content-tools {
 		float: none;
 		text-align: right;
-		border-bottom: 1px solid #e1e8ed;
+		border-block-end: 1px solid #e1e8ed;
 		padding: 0.5rem;
 	}
 
@@ -53,14 +53,14 @@
 	}
 
 	.Liberty .content-wrapper .liberty-content .liberty-content-header .contentSub {
-		margin-top: -0.25rem;
+		margin-block-start: -0.25rem;
 		padding: 0.5rem;
-		padding-top: 0;
+		padding-block-start: 0;
 	}
 
 	.Liberty .content-wrapper .liberty-content .liberty-content-header .header-ads {
 		margin: 0.5rem;
-		margin-bottom: 0;
+		margin-block-end: 0;
 	}
 
 	.Liberty .content-wrapper .liberty-content .liberty-content-main {
@@ -83,8 +83,8 @@
 	.Liberty .content-wrapper .liberty-content .bottom-ads {
 		padding: 0.5rem;
 		background-color: #fff;
-		border-left: 1px solid #e1e8ed;
-		border-right: 1px solid #e1e8ed;
+		border-inline-start: 1px solid #e1e8ed;
+		border-inline-end: 1px solid #e1e8ed;
 	}
 
 	.Liberty .content-wrapper .liberty-footer {
@@ -150,7 +150,7 @@
 		float: none;
 		width: 100%;
 		margin: auto;
-		margin-bottom: 1rem;
+		margin-block-end: 1rem;
 	}
 
 	.Liberty .content-wrapper .liberty-content .liberty-content-main iframe {
@@ -179,15 +179,15 @@
 	}
 
 	.Liberty .nav-wrapper .navbar .navbar-login {
-		padding-left: 0.4rem;
+		padding-inline-start: 0.4rem;
 	}
 
 	.Liberty .nav-wrapper .navbar .navbar-notification {
-		padding-left: 0.4rem;
+		padding-inline-start: 0.4rem;
 	}
 
 	.Liberty .nav-wrapper .navbar .form-inline {
-		padding-top: 0.04rem;
+		padding-block-start: 0.04rem;
 	}
 }
 

@@ -32,7 +32,7 @@
 	margin: 0;
 	padding: 0.6rem 1.2rem;
 	border: 1px solid #e1e8ed;
-	border-top: none;
+	border-block-start: none;
 	border-bottom-right-radius: 0.35rem;
 	border-bottom-left-radius: 0.35rem;
 }
@@ -61,10 +61,10 @@
 .Liberty .content-wrapper .liberty-content .liberty-content-main h4,
 .Liberty .content-wrapper .liberty-content .liberty-content-main h5,
 .Liberty .content-wrapper .liberty-content .liberty-content-main h6 {
-	margin-top: 1rem;
-	border-bottom: 1px dashed #e1e8ed;
-	margin-bottom: 0.6rem;
-	padding-bottom: 0.6rem;
+	margin-block-start: 1rem;
+	border-block-end: 1px dashed #e1e8ed;
+	margin-block-end: 0.6rem;
+	padding-block-end: 0.6rem;
 	overflow-wrap: break-word;
 	overflow: hidden;
 }
@@ -88,9 +88,9 @@
 .Liberty .content-wrapper .liberty-content .liberty-content-main .catlinks {
 	border: 1px solid #e1e8ed;
 	padding: 0.4rem;
-	padding-left: 1rem;
+	padding-inline-start: 1rem;
 	box-shadow: 0.15rem 0.15rem 0 0 #cfdae2;
-	margin-bottom: 0.8rem;
+	margin-block-end: 0.8rem;
 	border-radius: 0.35rem;
 	display: inline-block;
 	width: 100%;
@@ -102,7 +102,7 @@
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .catlinks ul {
 	padding: 0;
-	margin-left: 0.5rem;
+	margin-inline-start: 0.5rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .catlinks ul > li {
@@ -112,13 +112,13 @@
 
 /* Special Pages */
 .Liberty .content-wrapper .liberty-content .liberty-content-main .mw-specialpages-table {
-	margin-top: 0;
+	margin-block-start: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main fieldset {
 	border: 1px solid #e1e8ed;
 	padding: 1rem;
-	padding-top: 0;
+	padding-block-start: 0;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main legend {
@@ -163,7 +163,7 @@ html .suggestions-result-current {
 
 /* Recent Changes (Menu) */
 .Liberty .content-wrapper .liberty-content .liberty-content-main .mw-changeslist > h4 {
-	margin-bottom: 0.2rem;
+	margin-block-end: 0.2rem;
 }
 .Liberty .content-wrapper .liberty-content .liberty-content-main .special {
 	margin: 0;
@@ -177,19 +177,19 @@ html .suggestions-result-current {
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .special > li {
-	border-bottom: 1px solid #e1e8ed;
+	border-block-end: 1px solid #e1e8ed;
 	padding: 0.5rem 0;
 }
 /* Recent Changes (Menu) End */
 
 /* Image */
 .Liberty .content-wrapper .liberty-content .liberty-content-main .tright {
-	margin-left: 0.8rem;
-	margin-bottom: 0.8rem;
+	margin-inline-start: 0.8rem;
+	margin-block-end: 0.8rem;
 }
 
 .Liberty .content-wrapper .liberty-content .liberty-content-main .thumb .thumbcaption {
-	padding-top: 0.4rem;
+	padding-block-start: 0.4rem;
 	text-align: center;
 }
 
@@ -217,7 +217,7 @@ html .suggestions-result-current {
 }
 
 #fixed-toc ul ul {
-	margin-left: 1rem;
+	margin-inline-start: 1rem;
 }
 /* Left ToC End */
 
@@ -237,7 +237,7 @@ input:not( [type=button] ):not( [type=checkbox] ):not( [type=submit] ):not( [cla
 }
 
 html input.oo-ui-inputWidget-input[type=search] {
-	padding-left: 2.5em !important;
+	padding-inline-start: 2.5em !important;
 }
 
 select:focus,
@@ -277,11 +277,11 @@ button:hover {
 
 td.mw-label {
 	width: 15%;
-	padding-right: 10px;
+	padding-inline-end: 10px;
 }
 
 #mw-upload-form > .mw-htmlform-submit-buttons > .mw-htmlform-submit {
-	margin-top: 20px;
+	margin-block-start: 20px;
 }
 
 /* Fix for visualeditor */
