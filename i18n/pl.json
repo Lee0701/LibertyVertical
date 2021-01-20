@@ -5,8 +5,8 @@
 			"Railfail536"
 		]
 	},
-	"skinname-liberty": "Wolność",
-	"liberty-desc": "Responsywna skórka dla [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Wolność",
+	"liberty-vertical-desc": "Responsywna skórka dla [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Nie ignoruj",
 	"liberty-dark-dark": "Zignoruj i aktywuj tryb ciemny",
 	"liberty-dark-light": "Zignoruj i aktywuj tryb jasny",

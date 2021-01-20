@@ -4,8 +4,8 @@
 			"Jon Harald Søby"
 		]
 	},
-	"skinname-liberty": "Liberty",
-	"liberty-desc": "Responsiv drakt for [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Liberty",
+	"liberty-vertical-desc": "Responsiv drakt for [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Ikke ignorer",
 	"liberty-dark-dark": "Ignorer og aktiver mørk modus",
 	"liberty-dark-light": "Ignorer og aktiver lys modus",

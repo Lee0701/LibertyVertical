@@ -10,8 +10,8 @@
 			"Wladek92"
 		]
 	},
-	"skinname-liberty": "Liberté",
-	"liberty-desc": "Habillage réactif pour [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Liberté",
+	"liberty-vertical-desc": "Habillage réactif pour [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Ne pas ignorer",
 	"liberty-dark-dark": "Ignorer et activer le mode sombre",
 	"liberty-dark-light": "Ignorer et activer le mode clair",

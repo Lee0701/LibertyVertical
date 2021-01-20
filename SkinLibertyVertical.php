@@ -1,7 +1,7 @@
 <?php // @codingStandardsIgnoreLine
-class SkinLiberty extends SkinTemplate {
-	public $skinname = 'liberty';
-	public $stylename = 'Liberty';
+class SkinLibertyVertical extends SkinTemplate {
+	public $skinname = 'liberty-vertical';
+	public $stylename = 'Liberty-vertical';
 	public $template = 'LibertyTemplate';
 
 	/**
@@ -11,16 +11,16 @@ class SkinLiberty extends SkinTemplate {
 	 */
 	public function initPage( OutputPage $out ) {
 		// @codingStandardsIgnoreLine
-		global $wgSitename, $wgTwitterAccount, $wgLanguageCode, $wgNaverVerification, $wgLogo, $wgLibertyEnableLiveRC, $wgLibertyAdSetting;
+		global $wgSitename, $wgLibertyVerticalTwitterAccount, $wgLanguageCode, $wgLibertyVerticalNaverVerification, $wgLogo, $wgLibertyVerticalEnableLiveRC, $wgLibertyVerticalAdSetting;
 
 		$optionMainColor = $this->getUser()->getOption( 'liberty-color-main' );
 		$optionSecondColor = $this->getUser()->getOption( 'liberty-color-second' );
 
-		$mainColor = $optionMainColor ? $optionMainColor : $GLOBALS['wgLibertyMainColor'];
+		$mainColor = $optionMainColor ? $optionMainColor : $GLOBALS['wgLibertyVerticalMainColor'];
 		// @codingStandardsIgnoreLine
-		$tempSecondColor = isset( $GLOBALS['wgLibertySecondColor'] ) ? $GLOBALS['wgLibertySecondColor'] : '#' . strtoupper( dechex( hexdec( substr( $mainColor, 1, 6 ) ) - hexdec( '1A1415' ) ) );
+		$tempSecondColor = isset( $GLOBALS['wgLibertyVerticalSecondColor'] ) ? $GLOBALS['wgLibertyVerticalSecondColor'] : '#' . strtoupper( dechex( hexdec( substr( $mainColor, 1, 6 ) ) - hexdec( '1A1415' ) ) );
 		$secondColor = $optionSecondColor ? $optionSecondColor : $tempSecondColor;
-		$ogLogo = isset( $GLOBALS['wgLibertyOgLogo'] ) ? $GLOBALS['wgLibertyOgLogo'] : $wgLogo;
+		$ogLogo = isset( $GLOBALS['wgLibertyVerticalOgLogo'] ) ? $GLOBALS['wgLibertyVerticalOgLogo'] : $wgLogo;
 		if ( !preg_match( '/^((?:(?:http(?:s)?)?:)?\/\/(?:.{4,}))$/i', $ogLogo ) ) {
 			$ogLogo = $GLOBALS['wgServer'] . $GLOBALS['wgLogo'];
 		}
@@ -46,8 +46,8 @@ class SkinLiberty extends SkinTemplate {
 		$out->addMeta( 'keywords', $wgSitename . ',' . $skin->getTitle() );
 
 		/* 네이버 웹마스터 도구 */
-		if ( isset( $wgNaverVerification ) ) {
-			$out->addMeta( 'naver-site-verification', $wgNaverVerification );
+		if ( isset( $wgLibertyVerticalNaverVerification ) ) {
+			$out->addMeta( 'naver-site-verification', $wgLibertyVerticalNaverVerification );
 		}
 
 		/* IOS 기기 및 모바일 크롬에서의 웹앱 옵션 켜기 및 상단바 투명화 */
@@ -63,9 +63,9 @@ class SkinLiberty extends SkinTemplate {
 
 		/* 트위터 카드 */
 		$out->addMeta( 'twitter:card', 'summary' );
-		if ( isset( $wgTwitterAccount ) ) {
-			$out->addMeta( 'twitter:site', "@$wgTwitterAccount" );
-			$out->addMeta( 'twitter:creator', "@$wgTwitterAccount" );
+		if ( isset( $wgLibertyVerticalTwitterAccount ) ) {
+			$out->addMeta( 'twitter:site', "@$wgLibertyVerticalTwitterAccount" );
+			$out->addMeta( 'twitter:creator', "@$wgLibertyVerticalTwitterAccount" );
 		}
 
 		$modules = [
@@ -74,12 +74,12 @@ class SkinLiberty extends SkinTemplate {
 		];
 
 		// Only load ad-related JS if ads are enabled in site configuration
-		if ( isset( $wgLibertyAdSetting['client'] ) && $wgLibertyAdSetting['client'] ) {
+		if ( isset( $wgLibertyVerticalAdSetting['client'] ) && $wgLibertyVerticalAdSetting['client'] ) {
 			$modules[] = 'skins.liberty.ads';
 		}
 
 		// Only load LiveRC JS is we have enabled that feature in site config
-		if ( $wgLibertyEnableLiveRC ) {
+		if ( $wgLibertyVerticalEnableLiveRC ) {
 			$modules[] = 'skins.liberty.liverc';
 		}
 
@@ -177,7 +177,7 @@ class SkinLiberty extends SkinTemplate {
 	 * @param OutputPage $out OutputPage
 	 */
 	public function setupSkinUserCss( OutputPage $out ) {
-		global $wgLibertyAdSetting;
+		global $wgLibertyVerticalAdSetting;
 
 		parent::setupSkinUserCss( $out );
 
@@ -206,7 +206,7 @@ class SkinLiberty extends SkinTemplate {
 		);
 
 		// Only load AdSense JS is ads are enabled in site configuration
-		if ( isset( $wgLibertyAdSetting['client'] ) && $wgLibertyAdSetting['client'] ) {
+		if ( isset( $wgLibertyVerticalAdSetting['client'] ) && $wgLibertyVerticalAdSetting['client'] ) {
 			$out->addHeadItem(
 				'google-ads',
 				// @codingStandardsIgnoreLine

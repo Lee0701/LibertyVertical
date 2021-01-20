@@ -1,12 +1,12 @@
 {
-	"name": "Liberty",
+	"name": "LibertyVertical",
 	"author": [
 		"Librewiki developers",
 		"..."
 	],
 	"url": "https://gitlab.com/librewiki/Liberty-MW-Skin",
-	"descriptionmsg": "liberty-desc",
-	"namemsg": "skinname-liberty",
+	"descriptionmsg": "liberty-vertical-desc",
+	"namemsg": "skinname-liberty-vertical",
 	"license-name": "GPL-3.0-or-later",
 	"type": "skin",
 	"version": "1.8.0",
@@ -14,25 +14,25 @@
 		"MediaWiki": ">= 1.35.0"
 	},
 	"ValidSkinNames": {
-		"liberty": "Liberty"
+		"liberty-vertical": "LibertyVertical"
 	},
 	"MessagesDirs": {
-		"Liberty": [
+		"LibertyVertical": [
 			"i18n"
 		]
 	},
 	"config": {
-		"LibertyEnableLiveRC": true,
-		"LibertyUseGravatar": true,
-		"LibertyMainColor": "#4188F1",
-		"LibertySecondColor": null,
-		"LibertyAdSetting": null,
-		"LibertyOgLogo": null,
-		"TwitterAccount": null,
-		"NaverVerification": null,
-		"LibertyLiveRCArticleNamespaces": [0, 4, 10, 12, 14],
-		"LibertyLiveRCTalkNamespaces": [1, 3, 5, 7, 9, 11, 13, 15],
-		"LibertyMaxRecent": 10
+		"LibertyVerticalEnableLiveRC": true,
+		"LibertyVerticalUseGravatar": true,
+		"LibertyVerticalMainColor": "#4188F1",
+		"LibertyVerticalSecondColor": null,
+		"LibertyVerticalAdSetting": null,
+		"LibertyVerticalOgLogo": null,
+		"LibertyVerticalTwitterAccount": null,
+		"LibertyVerticalNaverVerification": null,
+		"LibertyVerticalLiveRCArticleNamespaces": [0, 4, 10, 12, 14],
+		"LibertyVerticalLiveRCTalkNamespaces": [1, 3, 5, 7, 9, 11, 13, 15],
+		"LibertyVerticalMaxRecent": 10
 	},
 	"ResourceModules": {
 		"skins.liberty.styles": {
@@ -102,10 +102,10 @@
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",
-		"remoteSkinPath": "Liberty"
+		"remoteSkinPath": "LibertyVertical"
 	},
 	"ResourceModuleSkinStyles": {
-		"liberty": {
+		"liberty-vertical": {
 			"+ext.relatedArticles.readMore": "css/extensions/RelatedArticles.css",
 			"+ext.echo.ui": "css/extensions/Echo.css",
 			"+mediawiki.action.view.filepage": "css/skinStyles/mediawiki.action.view.filepage.css",
@@ -113,7 +113,7 @@
 		}
 	},
 	"AutoloadClasses": {
-		"SkinLiberty": "SkinLiberty.php",
+		"SkinLibertyVertical": "SkinLibertyVertical.php",
 		"LibertyTemplate": "LibertyTemplate.php",
 		"LibertyHooks": "LibertyHooks.php"
 	},

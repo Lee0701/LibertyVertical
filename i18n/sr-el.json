@@ -2,8 +2,8 @@
 	"@metadata": {
 		"authors": []
 	},
-	"skinname-liberty": "Liberti",
-	"liberty-desc": "Responzivna tema za [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Liberti",
+	"liberty-vertical-desc": "Responzivna tema za [https://librewiki.net/ LibreWiki]",
 	"liberty-feed-new": "[Novo]",
 	"liberty-forgot-pw": "Zaboravili ste lozinku?",
 	"liberty-login": "Prijavite se",

@@ -4,8 +4,8 @@
 			"Librewiki developers"
 		]
 	},
-	"skinname-liberty": "Liberty",
-	"liberty-desc": "Responsive skin for [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Liberty",
+	"liberty-vertical-desc": "Responsive skin for [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Do not ignore",
 	"liberty-dark-dark": "Ignore and activate dark mode",
 	"liberty-dark-light": "Ignore and activate bright mode",

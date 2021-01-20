@@ -1,6 +1,6 @@
 <?php // @codingStandardsIgnoreLine
 if ( function_exists( 'wfLoadSkin' ) ) {
-	wfLoadSkin( 'Liberty' );
+	wfLoadSkin( 'LibertyVertical' );
 	$wgMessagesDirs['Liberty'] = __DIR__ . '/i18n';
 	return true;
 } else {

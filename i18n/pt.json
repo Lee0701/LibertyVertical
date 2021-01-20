@@ -5,8 +5,8 @@
 			"Mansil"
 		]
 	},
-	"skinname-liberty": "Liberdade",
-	"liberty-desc": "Tema de resposta rápida para [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Liberdade",
+	"liberty-vertical-desc": "Tema de resposta rápida para [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Não ignorar",
 	"liberty-dark-dark": "Ignorar e ativar o modo escuro",
 	"liberty-dark-light": "Ignorar e ativar o modo claro",

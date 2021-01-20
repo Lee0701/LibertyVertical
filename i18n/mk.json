@@ -5,8 +5,8 @@
 			"Violetova"
 		]
 	},
-	"skinname-liberty": "Слобода",
-	"liberty-desc": "Одѕивно руво за [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Слобода",
+	"liberty-vertical-desc": "Одѕивно руво за [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Не занемарувај",
 	"liberty-dark-dark": "Занемари и вклучи темен изглед",
 	"liberty-dark-light": "Занемари и вклучи светол изглед",

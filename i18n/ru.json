@@ -6,8 +6,8 @@
 			"PlushBoy"
 		]
 	},
-	"skinname-liberty": "Свобода",
-	"liberty-desc": "Скин для [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Свобода",
+	"liberty-vertical-desc": "Скин для [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Не игнорировать",
 	"liberty-dark-dark": "Игнорировать и активировать тёмную тему",
 	"liberty-dark-light": "Игнорировать и активировать светлую тему",

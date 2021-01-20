@@ -9,8 +9,8 @@
 			"코코아"
 		]
 	},
-	"skinname-liberty": "리버티",
-	"liberty-desc": "[https://librewiki.net/ 리브레 위키]를 위한 반응형 스킨",
+	"skinname-liberty-vertical": "리버티",
+	"liberty-vertical-desc": "[https://librewiki.net/ 리브레 위키]를 위한 반응형 스킨",
 	"liberty-dark-default": "무시하지 않음",
 	"liberty-dark-dark": "무시하고 어두운 모드 활성화",
 	"liberty-dark-light": "무시하고 밝은 모드 활성화",

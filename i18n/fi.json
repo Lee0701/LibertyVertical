@@ -6,8 +6,8 @@
 			"Jack Phoenix"
 		]
 	},
-	"skinname-liberty": "Vapaus",
-	"liberty-desc": "[https://librewiki.net/ LibreWikiä] varten kehitetty reagoiva ulkoasu",
+	"skinname-liberty-vertical": "Vapaus",
+	"liberty-vertical-desc": "[https://librewiki.net/ LibreWikiä] varten kehitetty reagoiva ulkoasu",
 	"liberty-dark-default": "Huomioi",
 	"liberty-dark-dark": "Älä huomioi ja aktivoi tumma tila",
 	"liberty-dark-light": "Älä huomioi ja aktivoi vaalea tila",

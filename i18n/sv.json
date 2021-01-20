@@ -8,8 +8,8 @@
 			"WikiPhoenix"
 		]
 	},
-	"skinname-liberty": "Frihet",
-	"liberty-desc": "Responsivt utseende för [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Frihet",
+	"liberty-vertical-desc": "Responsivt utseende för [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Ignorera inte",
 	"liberty-dark-dark": "Ignorera och aktivera mörkt läge",
 	"liberty-dark-light": "Ignorera och aktivera ljust läge",

@@ -13,16 +13,16 @@ Please set these variables in the LocalSettings.php file.
 
 | Name | Description | Example Variable | Default Variable |
 | ---- | ---- | ---- | ---- |
-| `$wgLibertyMainColor` | `theme-color` configurations, main color of site | `#4188F1` | `#4188F1` |
-| `$wgLibertySecondColor` | Configure of second color of site | `#2774DC` | The value of `$wgLibertyMainColor` subtracted by `1A1415` |
-| `$wgTwitterAccount` | Default Twitter account to set a mention | `librewiki` | (none) |
-| `$wgLibertyOgLogo` | OpenGraph Image Logo | `https://librewiki.net/images/6/6a/Libre_favicon.png` | (Value of `$wgLogo`) |
-| `$wgNaverVerification` | Naver Webmater Tool Verification Code | (Value supplied by Naver.com) | (none) |
-| `$wgLibertyAdSetting` | Google Adsense Settings | `array( 'client' => '(Value supplied by Google)', 'header' => '1234567890', 'right' => '0987654321' )` | (none) |
-| `$wgLibertyEnableLiveRC` | Enables 'Recent Cahnges' on the right side | `true` | `true` |
-| `$wgLibertyMaxRecent` | Recent X edits appearing in 'Recent Changes' | `10` | `10` |
-| `$wgLibertyLiveRCArticleNamespaces` | Namespaces for the first tab in 'Recent Changes' | `[NS_MAIN, NS_PROJECT, NS_TEMPLATE, NS_HELP, NS_CATEGORY]` | `[NS_MAIN, NS_PROJECT, NS_TEMPLATE, NS_HELP, NS_CATEGORY]` |
-| `$wgLibertyLiveRCTalkNamespaces` | Namespaces for the second tab in 'Recent Changes' | `[NS_TALK, NS_USER_TALK, NS_PROJECT_TALK, NS_FILE_TALK, NS_MEDIAWIKI_TALK, NS_TEMPLATE_TALK, NS_HELP_TALK, NS_CATEGORY_TALK]` | `[NS_TALK, NS_USER_TALK, NS_PROJECT_TALK, NS_FILE_TALK, NS_MEDIAWIKI_TALK, NS_TEMPLATE_TALK, NS_HELP_TALK, NS_CATEGORY_TALK]` |
+| `$wgLibertyVerticalMainColor` | `theme-color` configurations, main color of site | `#4188F1` | `#4188F1` |
+| `$wgLibertyVerticalSecondColor` | Configure of second color of site | `#2774DC` | The value of `$wgLibertyVerticalMainColor` subtracted by `1A1415` |
+| `$wgLibertyVerticalTwitterAccount` | Default Twitter account to set a mention | `librewiki` | (none) |
+| `$wgLibertyVerticalOgLogo` | OpenGraph Image Logo | `https://librewiki.net/images/6/6a/Libre_favicon.png` | (Value of `$wgLogo`) |
+| `$wgLibertyVerticalNaverVerification` | Naver Webmater Tool Verification Code | (Value supplied by Naver.com) | (none) |
+| `$wgLibertyVerticalAdSetting` | Google Adsense Settings | `array( 'client' => '(Value supplied by Google)', 'header' => '1234567890', 'right' => '0987654321' )` | (none) |
+| `$wgLibertyVerticalEnableLiveRC` | Enables 'Recent Cahnges' on the right side | `true` | `true` |
+| `$wgLibertyVerticalMaxRecent` | Recent X edits appearing in 'Recent Changes' | `10` | `10` |
+| `$wgLibertyVerticalLiveRCArticleNamespaces` | Namespaces for the first tab in 'Recent Changes' | `[NS_MAIN, NS_PROJECT, NS_TEMPLATE, NS_HELP, NS_CATEGORY]` | `[NS_MAIN, NS_PROJECT, NS_TEMPLATE, NS_HELP, NS_CATEGORY]` |
+| `$wgLibertyVerticalLiveRCTalkNamespaces` | Namespaces for the second tab in 'Recent Changes' | `[NS_TALK, NS_USER_TALK, NS_PROJECT_TALK, NS_FILE_TALK, NS_MEDIAWIKI_TALK, NS_TEMPLATE_TALK, NS_HELP_TALK, NS_CATEGORY_TALK]` | `[NS_TALK, NS_USER_TALK, NS_PROJECT_TALK, NS_FILE_TALK, NS_MEDIAWIKI_TALK, NS_TEMPLATE_TALK, NS_HELP_TALK, NS_CATEGORY_TALK]` |
 
 ## Navbar
 Please fill out `MediaWiki:Liberty-Navbar` article in the following format.

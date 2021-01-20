@@ -5,8 +5,8 @@
 			"Winston Sung"
 		]
 	},
-	"skinname-liberty": "Liberty",
-	"liberty-desc": "響應 [https://librewiki.net/ LibreWiki] 的佈景主題",
+	"skinname-liberty-vertical": "Liberty",
+	"liberty-vertical-desc": "響應 [https://librewiki.net/ LibreWiki] 的佈景主題",
 	"liberty-dark-default": "不要忽視",
 	"liberty-dark-dark": "忽視並生效暗黑模式",
 	"liberty-dark-light": "忽視並生效明亮模式",

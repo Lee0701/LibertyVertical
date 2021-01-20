@@ -6,8 +6,8 @@
 			"Ата"
 		]
 	},
-	"skinname-liberty": "Свобода",
-	"liberty-desc": "Адаптивна тема оформлення для [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Свобода",
+	"liberty-vertical-desc": "Адаптивна тема оформлення для [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Не ігнорувати",
 	"liberty-dark-dark": "Ігнорувати й активувати темний режим",
 	"liberty-dark-light": "Ігнорувати й активувати світлий режим",

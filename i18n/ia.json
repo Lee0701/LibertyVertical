@@ -4,8 +4,8 @@
 			"McDutchie"
 		]
 	},
-	"skinname-liberty": "Libertate",
-	"liberty-desc": "Apparentia responsive pro [https://librewiki.net/ LibreWiki]",
+	"skinname-liberty-vertical": "Libertate",
+	"liberty-vertical-desc": "Apparentia responsive pro [https://librewiki.net/ LibreWiki]",
 	"liberty-dark-default": "Non ignorar",
 	"liberty-dark-dark": "Ignorar e activar modo obscur",
 	"liberty-dark-light": "Ignorar e activar modo clar",

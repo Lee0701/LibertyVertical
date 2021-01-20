@@ -6,8 +6,8 @@
 			"Vlad5250"
 		]
 	},
-	"skinname-liberty": "Liberty",
-	"liberty-desc": "Адаптивен облик за [https://librewiki.net/ ЛибреУики]",
+	"skinname-liberty-vertical": "Liberty",
+	"liberty-vertical-desc": "Адаптивен облик за [https://librewiki.net/ ЛибреУики]",
 	"liberty-feed-new": "[Нова]",
 	"liberty-forgot-pw": "Забравена парола?",
 	"liberty-login": "Влизане",
