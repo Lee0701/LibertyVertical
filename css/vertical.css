@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, b {
     letter-spacing: initial;
 }
 
+ol {
+    list-style-type: cjk-decimal;
+}
+
 .toctogglespan::before, .toctogglespan::after {
     display: none;
 }

@@ -517,6 +517,7 @@ strike {
 .Liberty .content-wrapper .liberty-content .liberty-subnav {
 	border-top-left-radius: 0.35rem;
 	border: 1px solid #e1e8ed;
+	border-right: none;
 	background-color: #f5f8fa;
 
 	display: flex;

@@ -1,0 +1,29 @@
+/* Max-width: 1023 Desktop deadline */
+@media screen and (max-width: 1023px) {
+
+}
+/* Max-width: 890 convert for tablet mode alt */
+@media screen and (max-width: 890px) {
+
+}
+/* Max-width: 798 Menu deadline, convert for tablet mode */
+@media screen and (max-width: 798px) {
+
+}
+/* Max-width: 520px Under tablet */
+@media screen and (max-width: 520px) {
+    .title > h1 {
+        font-size: 1.5rem;
+    }
+    .liberty-content-header {
+        padding: 5px;
+    }
+    .content-tools {
+        padding: 0.5em;
+    }
+}
+
+/* Max-width: 397px Under Big-phone */
+@media screen and (max-width: 397px) {
+    
+}

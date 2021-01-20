@@ -44,10 +44,13 @@
 				"css/default.css": {
 					"media": "all"
 				},
+				"css/default_mobile.css": {
+					"media": "all"
+				},
 				"css/vertical.css": {
 					"media": "all"
 				},
-				"css/default_mobile.css": {
+				"css/vertical_mobile.css": {
 					"media": "all"
 				},
 				"css/wiki.css": {
