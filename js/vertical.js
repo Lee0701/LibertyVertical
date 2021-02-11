@@ -27,6 +27,20 @@ mw.loader.using( [ 'mediawiki.util' ] ).done( function () {
         container.style.height = container.scrollHeight + 'px';
     }
 
-    mw.hook('wikipage.content').add(addAdjustHeightsListeners);
-    mw.hook('wikipage.content').add(adjustHeights);
+    function swapThumbnailWidthAndHeights() {
+        function swap(thumbinner) {
+            thumbinner.style.height = thumbinner.style.width;
+            thumbinner.style.width = null;
+        }
+        var thumbinners = document.querySelectorAll('.thumbinner');
+        thumbinners.forEach(swap);
+    }
+
+    function onWikiPageContent() {
+        swapThumbnailWidthAndHeights();
+        adjustHeights();
+        addAdjustHeightsListeners();
+    }
+
+    mw.hook('wikipage.content').add(onWikiPageContent);
 } );
